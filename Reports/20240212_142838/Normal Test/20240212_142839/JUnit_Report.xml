@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Normal Test" time="8.177" tests="4" failures="0" errors="0">
+   <testsuite name="Normal Test" tests="4" failures="0" errors="0" time="8.177" skipped="0" timestamp="12-02-2024T14:28:48" hostname="masep - MSI" id="Test Suites/Normal Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\masep\\Documents\\Bootcamp\\Assignment\\ApiAssignment\\ApiAssignement\\Reports\\20240212_142838\\Normal Test\\20240212_142839"/>
+         <property name="logFiles" value="C:\\Users\\masep\\Documents\\Bootcamp\\Assignment\\ApiAssignment\\ApiAssignement\\Reports\\20240212_142838\\Normal Test\\20240212_142839\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="masep - MSI"/>
+         <property name="hostAddress" value="172.16.212.18"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+      </properties>
+      <testcase name="Test Cases/Create a Resource" time="5.474" classname="Test Cases/Create a Resource" status="PASSED">
+         <system-out><![CDATA[12-02-2024T14:28:48 - [TEST_CASE][PASSED] - Test Cases/Create a Resource: Test Cases/Create a Resource
+
+12-02-2024T14:28:49 - [TEST_STEP][PASSED] - sendRequest(findTestObject("Creating a resource")): Send request successfully
+
+12-02-2024T14:28:53 - [MESSAGE][INFO] - HAR: C:\Users\masep\Documents\Bootcamp\Assignment\ApiAssignment\ApiAssignement\Reports\20240212_142838\Normal Test\20240212_142839\requests\main\0.har
+
+12-02-2024T14:28:54 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Get All Listing" time="0.487" classname="Test Cases/Get All Listing" status="PASSED">
+         <system-out><![CDATA[12-02-2024T14:28:54 - [TEST_CASE][PASSED] - Test Cases/Get All Listing: Test Cases/Get All Listing
+
+12-02-2024T14:28:54 - [TEST_STEP][PASSED] - sendRequest(findTestObject("Get All Listing")): Send request successfully
+
+12-02-2024T14:28:54 - [MESSAGE][INFO] - HAR: C:\Users\masep\Documents\Bootcamp\Assignment\ApiAssignment\ApiAssignement\Reports\20240212_142838\Normal Test\20240212_142839\requests\main\1.har
+
+12-02-2024T14:28:54 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC- Get Resource" time="0.439" classname="Test Cases/TC- Get Resource" status="PASSED">
+         <system-out><![CDATA[12-02-2024T14:28:54 - [TEST_CASE][PASSED] - Test Cases/TC- Get Resource: Test Cases/TC- Get Resource
+
+12-02-2024T14:28:54 - [TEST_STEP][PASSED] - sendRequest(findTestObject("Get Resource")): Send request successfully
+
+12-02-2024T14:28:55 - [MESSAGE][INFO] - HAR: C:\Users\masep\Documents\Bootcamp\Assignment\ApiAssignment\ApiAssignement\Reports\20240212_142838\Normal Test\20240212_142839\requests\main\2.har
+
+12-02-2024T14:28:55 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Update a resource" time="1.259" classname="Test Cases/Update a resource" status="PASSED">
+         <system-out><![CDATA[12-02-2024T14:28:55 - [TEST_CASE][PASSED] - Test Cases/Update a resource: Test Cases/Update a resource
+
+12-02-2024T14:28:55 - [TEST_STEP][PASSED] - sendRequest(findTestObject("Updating a resource")): Send request successfully
+
+12-02-2024T14:28:56 - [MESSAGE][INFO] - HAR: C:\Users\masep\Documents\Bootcamp\Assignment\ApiAssignment\ApiAssignement\Reports\20240212_142838\Normal Test\20240212_142839\requests\main\3.har
+
+12-02-2024T14:28:56 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-02-2024T14:28:48 - [TEST_SUITE][PASSED] - Normal Test: Test Cases/Update a resource]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
